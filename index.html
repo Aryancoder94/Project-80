@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project Guest List</title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <center>
+            <h1 style="margin-top: 20px; margin-bottom: 20px;">Guest List</h1>
+            <div id="rows">
+                <input type="text" placeholder="Enter Name" id="name1">
+            <button onclick="submit()" id="submit_button">Submit</button><span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+            <hr>
+            <div id="display_name">
+
+            </div>
+            <hr>
+            <div id="show1">
+                <h2 id="hd2">Guest List</h2>
+                <button onclick="show()" id="show_button">Show</button>
+                <p id="p1"></p>
+    
+            </div>
+              <hr>
+               <button onclick="sorting()" id="sort_button">Sort List</button>              
+               <div id="sorted"></div>
+               
+            </div>
+
+            <hr>
+            <input type="text" placeholder="Search Name" id="search_textbox">&nbsp;
+            <button onclick="search()" id="search_button">Search Name</button>
+        </center>
+    </body>
+</html>

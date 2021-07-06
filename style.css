@@ -1,0 +1,35 @@
+
+body{
+    background-color: royalblue;
+    text-align: center;
+}
+#sort_button{
+    display: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#submit_button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#search_button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+input{
+    margin:10px;
+}
+#display_names_without_commas{
+     border: 1px darkturquoise ;
+     padding: 10px;
+     background-color:orange ;
+     border-radius: 10px;
+     width: 50%;
+}
+.display_name_with_commas{
+    border: 1px darkturquoise ;
+    padding: 10px;
+    background-color:orange ;
+    border-radius: 10px;
+    width: 50%;
+}   
